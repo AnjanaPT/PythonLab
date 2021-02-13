@@ -1,0 +1,23 @@
+from Graphics import Circle,Rectangle
+from Graphics._3D_Graphics import *
+from Graphics._3D_Graphics.Cuboid import *
+r=int(input("Enter The Radius Of Sphere : "))
+print("-----------------------------------------------")
+print("Area Of The Sphere With Radius ",r," Is : ",Sphere.area(r))
+print("Perimeter Of The Sphere With Radius ",r," Is : ",Sphere.perimeter(r))
+print("-----------------------------------------------")
+l=int(input("Enter The Length Of Cuboid : "))
+b=int(input("Enter The Breadth Of Cuboid : "))
+h=int(input("Enter The Height Of Cuboid : "))
+print("Area Of Cuboid Is : ",area(l,b,h))
+print("Perimeter Of Cuboid Is : ",perimeter(l,b,h))
+print("-----------------------------------------------")
+r=int(input("Enter The Radius Of Circle : "))
+print("-----------------------------------------------")
+print("Area Of The Circle With Radius ",r," Is : ",Circle.area(r))
+print("Perimeter Of The Circle With Radius ",r," Is : ",Circle.perimeter(r))
+print("-----------------------------------------------")
+l=int(input("Enter The Length Of Rectangle : "))
+b=int(input("Enter The Breadth Of Rectangle : "))
+print("Area Of The Rectangle Is : ",Rectangle.area(l,b))
+print("Perimeter Of The Rectangle Is : ",Rectangle.perimeter(l,b))
